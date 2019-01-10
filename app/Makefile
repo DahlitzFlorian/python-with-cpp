@@ -20,4 +20,4 @@ hello.so: addition.o
 	gcc $^ $(CLinkFlags) -o $@
 
 %.o: %.cpp
-gcc $(CFLAGS) $(CInc) $^
+	gcc $(CFLAGS) $(CInc) $^
