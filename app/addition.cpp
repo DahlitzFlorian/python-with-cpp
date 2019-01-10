@@ -1,6 +1,6 @@
 #include <boost/python.hpp>
 
-int const* greet(int a, int b)
+int addition(int a, int b)
 {
    return a + b;
 }
