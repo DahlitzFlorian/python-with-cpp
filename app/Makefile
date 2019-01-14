@@ -14,7 +14,7 @@ CLinkFlags = -shared -Wl,-soname,$@ -Wl,-rpath,$(BOOST_LIB_LOCATION) -L$(BOOST_L
 PHONY: all
 all: addition.so
 
-hello.so: addition.o
+addition.so: addition.o
 
 %.so: %.o
 	gcc $^ $(CLinkFlags) -o $@
