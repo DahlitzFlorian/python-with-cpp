@@ -5,4 +5,4 @@ WORKDIR /app
 COPY . /app
 
 RUN make
-RUN python3 addition.py
+RUN python3 math_addition.py
